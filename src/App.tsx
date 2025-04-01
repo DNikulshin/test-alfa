@@ -5,9 +5,9 @@ import DetailPage from "./pages/DetailPage";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/test-alfa">
       <Routes>
-        <Route path="/" element={<Navigate to="/products" />} />
+        <Route path="/" element={<Navigate to="/products"/> } />
         <Route path="/products" element={<ListPage />} />
         <Route path="/create-product" element={<CreatePage />} />
         <Route path="/product/:id" element={<DetailPage />} />
