@@ -22,7 +22,7 @@ export const ListItem = ({ product }: Props) => {
 
   return (
     <div className="flex justify-center items-center gap-4 w-full shadow-sm shadow-stone-600 px-4 pt-6 max-h-[250px] relative">
-      <Link to={`/product/${product.id}`} className=" w-full">
+      <Link to={`/products/${product.id}`} className=" w-full">
         <div className="flex justify-between items-center px-6 py-4 gap-4">
           <div className="flex flex-wrap gap-4 items-center justify-center">
             <p>Title: {product.title}</p>
