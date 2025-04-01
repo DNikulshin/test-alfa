@@ -5,7 +5,7 @@ import DetailPage from "./pages/DetailPage";
 
 const App = () => {
   return (
-    <Router basename="/test-alfa">
+    <Router basename="/test-alfa/">
       <Routes>
         <Route path="/" element={<Navigate to="/products"/> } />
         <Route path="/products" element={<ListPage />} />
