@@ -12,6 +12,7 @@ const App = () => {
         <Route path="/create-product" element={<CreatePage />} />
         <Route path="/product/:id" element={<DetailPage />} />
         <Route />
+        <Route path="*" element={<Navigate to="/products" />} />
       </Routes>
     </Router>
   );
